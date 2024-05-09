@@ -1,0 +1,22 @@
+.hero-container {
+    background-color: var(--highlight);
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.hero-name {
+    color:black
+}
+
+.hero-contact {
+    color: blue;
+    text-align: center;
+    text-shadow: none;
+}
+
+.hero-img {
+    
+}
