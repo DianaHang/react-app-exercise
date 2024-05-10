@@ -6,7 +6,7 @@ function About () {
         <>
           <div className= "about-container">
             <div className= "about-card">
-                <img src="./componentes/recursos/Jack.jpg" className= "about-img" alt= "Perrito feo" />
+                <img src="./recursos/Jack.jpg/" className= "about-img" alt= "Perrito feo" />
                 <div className= "about-info">
                    <h2 className= "about-name"> JACK </h2>
                    <Pets/>
