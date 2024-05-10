@@ -4,6 +4,7 @@
 import {Routes,Route} from "react-router-dom"
 import Navbar from './componentes/Navbar.jsx';
 import Hero from "./componentes/hero/hero.jsx";
+import About from "./componentes/About/About.jsx";
 import Astros from "./componentes/astros/Astros.jsx";
 import './App.css';
 
@@ -17,8 +18,8 @@ function App() {
   },
   {
     id: 2,
-    text: "planets",
-    link: "/planets",
+    text: "About",
+    link: "/About",
   },
   {
     id: 3,
@@ -33,6 +34,7 @@ function App() {
      <Routes>
        <Route element={<Hero/>} path= "/" />
        <Route element={<Astros/>} path= "/astros" />
+       <Route element={<About/>} path= "/About" />
      </Routes>
   </>);  
 }
